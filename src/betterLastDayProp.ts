@@ -48,8 +48,8 @@ const getPropFromTFile = async (
 const betterGetPropFromLastDay = async (
   tp: Templater,
   prop: string,
-  startDate?: string,
-  dateOffset?: number
+  startDate?: string, // format: "YYYY-MM-DD ddd"
+  dateOffset?: number // number of days before startDate
 ): Promise<string | null | undefined> => {
   const { file, lastNumber } = await findLastDayWithFile(
     tp,
