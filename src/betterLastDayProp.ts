@@ -1,6 +1,5 @@
 import { TFile } from "obsidian";
 import { Templater } from "../templater-types";
-import "moment";
 
 const findLastDayWithFile = async (
   tp: Templater,
