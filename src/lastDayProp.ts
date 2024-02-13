@@ -56,4 +56,4 @@ const getPropFromLastDay = async (tp: Templater, prop: string) => {
   if (lastDayFile) return await getPropFromTFile(tp, lastDayFile, prop);
 };
 
-export { getPropFromLastDay };
+export = getPropFromLastDay;
