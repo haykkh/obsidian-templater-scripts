@@ -68,4 +68,4 @@ const betterGetPropFromLastDay = async (
   } else return betterGetPropFromLastDay(tp, prop, startDate, lastNumber);
 };
 
-export { betterGetPropFromLastDay };
+export = betterGetPropFromLastDay;
